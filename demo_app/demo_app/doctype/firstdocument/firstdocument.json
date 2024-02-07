@@ -1,0 +1,74 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-07 11:29:48.472681",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "login_time",
+  "name1",
+  "password",
+  "task",
+  "logout_time",
+  "sign"
+ ],
+ "fields": [
+  {
+   "bold": 1,
+   "fieldname": "login_time",
+   "fieldtype": "Datetime",
+   "label": "Login Time"
+  },
+  {
+   "bold": 1,
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "password",
+   "fieldtype": "Password",
+   "label": "Password"
+  },
+  {
+   "fieldname": "task",
+   "fieldtype": "Long Text",
+   "label": "Task"
+  },
+  {
+   "bold": 1,
+   "fieldname": "logout_time",
+   "fieldtype": "Datetime",
+   "label": "Logout Time"
+  },
+  {
+   "fieldname": "sign",
+   "fieldtype": "Signature",
+   "label": "Sign"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-02-07 12:46:28.624779",
+ "modified_by": "Administrator",
+ "module": "Demo App",
+ "name": "FirstDocument",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
